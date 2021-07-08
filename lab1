@@ -1,0 +1,58 @@
+ sudo useradd -p password -s /bin/bash/ test
+ sudo /etc/sudoers
+ sudo nano /etc/sudoers
+ useradd tuxfixer
+ sudo nano useradd tuxfixer
+ useradd tuxfixer
+ sudo nano /etc/sudoers
+ useradd tuxfixer
+ sudo yum -y install openssh-server openssh-clients
+ sudo chkconfig sshd on
+ service sshd start
+ netstat -tulpn | grep :22
+ sudo yumm install nano
+ sudo yum install nano
+ sodo nano /etc/ssh/sshd_config
+ sudo nano /etc/ssh/sshd_config
+ sudo service sshd restart
+ service sshd status
+ ssh keygen
+ ssh-keygen
+ ssh-copy-id albinator@local
+ ssh-copy-id albinator@localhost
+ pwd
+ cd /etc/
+ ls
+ pwd
+ cd ~
+ ls -al
+ cat info.txt
+ cat>info.txt
+ cat info.txt
+ mkdir data1
+ cp  data1 info.txt
+ cp info.txt data1/
+ cp data1/info.txt data1/info2.txt
+ mv data1/info2.txt data1/info_new.txt
+ ls -l data1/info_new.txt
+ cp data1/info_new.txt data1/info_user.txt
+ chmod u+rw data1/info_user.txt
+ ls -l data1/info_user.txt
+ sudo useradd -p password -s /bin/bash/ test123
+ sudo nano  useradd -p password -s /bin/bash/ test123
+ useradd -p password -s /bin/bash/ test123
+ cat /etc/passwd
+ w
+ useradd tuxfixer
+ sudo useradd tuxfixer
+ suno nano /etc/sudoers
+ sudo nano /etc/sudoers
+ sudo useradd tuxfixer
+ useradd -p password -s /bin/bash/ test123
+ cat admin:///home/albinator/data1
+ cat admin:///home/albinator/data1/info_user.txt
+ cat /home/albinator:///home/albinator/data1/info_user.txt
+ cat home/albinator/data1/info_user.txt
+ cat>new_file.txt
+ ls -l new_file.txt 
+ history>Lab1
